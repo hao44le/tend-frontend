@@ -8,9 +8,7 @@ let wsbnModule = angular.module('wsbn', [
 
 .config(($stateProvider, $urlRouterProvider) => {
   "ngInject";
-
-
-
+  
   $stateProvider
     .state('wsbn', {
       url: '/wsbn',
