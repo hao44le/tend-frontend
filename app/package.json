@@ -9,6 +9,7 @@
     "angular-aria": "^1.7.0",
     "angular-material": "^1.1.9",
     "angular-ui-router": "^1.0.0-beta.1",
+    "firebase": "^5.0.4",
     "normalize.css": "^3.0.3"
   },
   "devDependencies": {
