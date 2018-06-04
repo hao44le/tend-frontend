@@ -134,6 +134,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: none;
 }
 
+.section_detail {
+  margin: 0 0 50px 0;
+  font: italic 18px 'Open Sans', sans-serif;
+  text-transform: none;
+  text-align: left;
+}
+
 /* Containers */
 .container_small, .container_big {
 	width: 100%;
@@ -512,6 +519,10 @@ footer p {
 	}
 
 	.section_subtitle {
+    margin: 0 0 30px 0;
+    text-align: left
+  }
+  .section_detail {
     margin: 0 0 30px 0;
     text-align: left
   }
