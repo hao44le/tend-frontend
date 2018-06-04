@@ -209,6 +209,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navigation */
+.header {
+  overflow: hidden;
+  background-color: #333;
+  padding: 20px 10px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -232,6 +237,16 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+@media screen and (max-width: 500px) {
+  .header li {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .header-right {
+    float: none;
+  }
 }
 
 .hide { display: none }
@@ -539,4 +554,5 @@ footer p {
 
 .nav-header {
   font-family: 'Montserrat', sans-serif;
+  float: right;
 }
