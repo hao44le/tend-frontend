@@ -9,7 +9,7 @@ let wsbnModule = angular.module('wsbn', [
 .config(($stateProvider, $urlRouterProvider) => {
   "ngInject";
 
-  $urlRouterProvider.otherwise('/');
+
 
   $stateProvider
     .state('wsbn', {
